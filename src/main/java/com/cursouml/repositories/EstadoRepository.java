@@ -6,6 +6,6 @@ import org.springframework.stereotype.Repository;
 import com.cursouml.domain.Estado;
 
 @Repository
-public class EstadoRepository extends JpaRepository<Estado, Integer>{
+public interface EstadoRepository extends JpaRepository<Estado, Integer>{
 	
 }
